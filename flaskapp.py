@@ -43,7 +43,7 @@ def analyze(word):
     # Count vowels (a, e, i, o, u) — case insensitive, y is not a vowel
     # Hint: word.lower() converts to lowercase before checking each character
     num_vowels = 0  # replace this with your vowel-counting logic
-        for char in word.lower():
+    for char in word.lower():
         if char in 'aioeu':
             num_vowels += 1
 
